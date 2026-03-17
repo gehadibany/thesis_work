@@ -26,7 +26,10 @@ A Monte Carlo simulation to show how turbulence causes the beam centroid to drif
 ### 3. `aperture_radius_optimisation.ipynb`
 To analyze the trade-off between light collection efficiency, background noise and coupling.
 
-### 4. `mitigations_effects_QBER.ipynb`
+### 4. `fsm.ipynb`
+Simulates the closed loop (QD + FSM + Tip/tilt) using a feedback loop that tracks atmospheric jitter and calculates the percentage of jitter reduction achieved by the mirror.
+
+### 5. `mitigations_effects_QBER.ipynb`
 The final analysis comparing the system performance before and after optimization (selection of parameters based on the results of the above analyses)
 
 ## Requirements
